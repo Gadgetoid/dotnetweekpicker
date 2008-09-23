@@ -1,0 +1,14 @@
+DotNet Week Picker Development Journal
+
+= Update =
+
+I've recently revised the uc_WeekPicker.css to create a much cleaner more generic style
+from which new custom styles can be created.
+
+It's a fairly straight forward file to modify and includes support for discrete styling
+of month names, the selected week, the current week, the highlighted week and even alternate
+row styles to allow additional visual cues for what month a particular week lies in.
+
+= Bug or Feature? =
+
+At the moment selected weeks are not cleared in years that differ to that in which a week is selected. IE: If you select a week in 2007 and then one in 2008 you will see the previously selected week highlighted in 2007 in addition to that of 2008. This effect disappears on post back.
